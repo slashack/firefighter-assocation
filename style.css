@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
     
 }
 
@@ -12,7 +13,7 @@ img {
 .content-1 .main-text {
     font-size: 48px;
     font-weight: bolder;
-    color: #F9FAF8;    
+    color: #F9FAF8; 
 }
 .content-1 .secondary-text {
     font-size: 18px;
@@ -24,9 +25,11 @@ img {
 .content-1 .logo-text {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: bold;
 }
 .content-1 .paragraph-text {
     color: #E5E7EB;
+    padding: 20px 0;   
 }
 /* all content in first portion */
 .content-1 {
@@ -51,6 +54,7 @@ ul {
 /* main content and pictures */
 .hero {
     display: flex;
+    align-items: center;
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 50px;
@@ -73,8 +77,8 @@ ul {
 .content-2 .picture-box {
     border-style: solid;
     border-color: #3882f6;
-    height: 200px;
-    width: 200px;
+    height: 225px;
+    width: 225px;
 
 }
 .content-2 .parent {
@@ -87,6 +91,15 @@ ul {
 .content-2 p {
     text-align: center;
     max-width: 200px;
+    font-size: 18px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+
+.content-2 img {
+    height: 225px;
+    width: 225px;
+    object-fit: cover;
 }
 .content-2 {
     display: flex;
@@ -117,7 +130,7 @@ ul {
 }
 /* content 4 content */
 .content-4 .container {
-    background-color: #3882f6;
+    background-color: #f31b1b;
     color: #F9FAF8;
     display: flex;
     justify-content: space-between;
